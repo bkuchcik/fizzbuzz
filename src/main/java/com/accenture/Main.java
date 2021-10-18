@@ -2,7 +2,15 @@ package com.accenture;
 
 public class Main {
 
+
+
     public static void main(String[] args) {
-        System.out.println("Code me please");
+
+
+        for (int n = 1; n <=100; n ++ ){
+
+           System.out.println(Fizzbuzz.fizzbuzz(n));
+        }
+
     }
 }
